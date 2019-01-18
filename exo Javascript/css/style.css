@@ -1,0 +1,146 @@
+html body{
+	font-family: Roboto;
+	margin: 0;
+	padding: 0;
+}
+
+#parent{
+	width: 200px;
+	height: 200px;
+	background-color: green;
+	text-align: center;
+}
+#enfant{
+	width: 70px;
+	height: 70px;
+	background-color: blue;
+	margin: auto;
+}
+#id1{
+	height: 100px;
+}
+#blue{
+	font-family: Novamono;
+	color: blue;
+	font-size: 3em;
+	text-align: center;
+	border: 2px solid blue;
+	width: 20%;
+	margin: auto;
+	border-radius: 60px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: rgba(159,168,218 ,1);
+}
+#red{
+	font-family: Novamono;
+	color: red;
+	font-size: 3em;
+	text-align: center;
+	border: 2px solid red;
+	width: 20%;
+	margin: auto;
+	border-radius: 60px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: rgba(229,115,115 ,1);
+
+}
+#green{
+	font-family: Novamono;
+	color: green;
+	font-size: 3em;
+	text-align: center;
+	border: 2px solid green;
+	width: 20%;
+	margin: auto;
+	border-radius: 60px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: rgba(129,199,132 ,1);
+
+}
+#texte{
+	font-family: Novamono;
+	font-size: 1.3em;
+	text-align: center;
+	padding: 50px;
+	border: solid 2px black;
+	box-shadow: 3px 2px darkgrey;
+	margin: 40px;
+	border-radius: 60px;
+
+}
+#result{
+	font-family: Novamono;
+	font-size: 1.5em;
+	text-align: center;
+	border: 2px solid;
+	width: 20%;
+	margin: auto;
+	border-radius: 60px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+#color{
+	background-color: purple;
+	width: 300px;
+	height: 150px;
+	margin: auto;
+	border-radius: 60px;
+}
+#colorclick{
+	font-family: Roboto;
+	text-align: center;
+	margin: auto;
+	margin-top:30px;
+	border: 1px solid black;
+	width: 20%;
+	border-radius: 60px;
+
+}
+#resultat{
+	text-align: center;
+	margin: auto;
+
+}
+
+#changewithclass{
+	width: 200px;
+	height: 200px;
+}
+.redclass{
+	background-color: red;
+}
+.blueclass{
+	background-color: blue;
+}
+.div{
+	border: 2px solid black;
+	padding: 30px;
+	margin: 20px;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#manu{
+	position: absolute;
+	height: 250px;
+	width: 450px;
+
+}
+.toggled{
+	background-image: url(../img/macron2.png);
+}
+#slider{
+	width: 100%;
+	height: 500px;
+	background-image: url(../img/slide1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
